@@ -1,0 +1,51 @@
+#header {
+    background-color: #65161A;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #innerHeader {
+        display: flex;
+        align-items: center;
+        position: relative;
+        height: 80vh;
+        width: 90vw;
+
+        #backgroundImage {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+
+            opacity: 0.5;
+
+            border-radius: 1rem;
+        }
+        #titleImage {
+            max-width: 15rem;
+            max-height: 15rem;
+            margin-left: 10vw;
+            margin-right: 1rem;
+
+            z-index: 2;
+        }
+        div {
+            z-index: 2;
+
+            h2 {
+                font-weight: 300;
+                font-size: 3rem;
+                margin: 0;
+            }
+            h1 {
+                font-weight: 800;
+                font-size: 7rem;
+                margin: 0;
+            }
+        }
+    }
+}

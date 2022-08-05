@@ -1,0 +1,18 @@
+{
+  "id": "e21c804e-d179-4d92-b30a-2f59957e7df5",
+  "uid": "odio-voluptate-dignissimos",
+  "type": "page",
+  "data": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Target 24/365 architectures",
+        "spans": []
+      }
+    ],
+    "parent": {
+      "link_type": "Web",
+      "url": "https://slicemachine.dev"
+    }
+  }
+}
