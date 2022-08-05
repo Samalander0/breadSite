@@ -1,6 +1,6 @@
-export const Layout = ({ navigation, settings, children }) => {
+export const Layout = ({ children }) => {
   return (
-    <div className="text-slate-800">
+    <div>
       <main>{children}</main>
     </div>
   );
